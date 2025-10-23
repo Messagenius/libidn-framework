@@ -25,9 +25,9 @@ Also included is a command line tool, several self tests, code examples, and mor
                :tag => s.version }
 
   s.ios.deployment_target = "15.0"
-  s.osx.deployment_target = "10.9"
-  s.tvos.deployment_target = '9.0'
-  s.watchos.deployment_target = '2.0'
+  s.osx.deployment_target = "10.13"
+  #s.tvos.deployment_target = '11.0'
+  #s.watchos.deployment_target = '2.0'
   s.requires_arc = true
 
   s.source_files = 'Framework/*.{m,h}', 'lib/*.{h,c}'
