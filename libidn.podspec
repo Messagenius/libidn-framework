@@ -16,15 +16,15 @@ Libidn is developed for the GNU/Linux system, but runs on over 20 Unix platforms
 Also included is a command line tool, several self tests, code examples, and more, all licensed under the GNU General Public License version 3.0 or later.
                        DESC
 
-  s.homepage         = "https://github.com/chrisballinger/libidn-framework"
+  s.homepage         = "https://github.com/Messagenius/libidn-framework.git"
   s.license          = { :type => 'LGPL', :file => 'LICENSE' }
   s.authors           = { "Simon Josefsson" => "simon@josefsson.org",
   						  "Chris Ballinger (podspec maintainer)" => "chrisballinger@gmail.com" }
   s.social_media_url = 'https://twitter.com/jas4711'
-  s.source = { :git => 'https://github.com/chrisballinger/libidn-framework.git',
+  s.source = { :git => 'https://github.com/Messagenius/libidn-framework.git',
                :tag => s.version }
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "15.0"
   s.osx.deployment_target = "10.9"
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
